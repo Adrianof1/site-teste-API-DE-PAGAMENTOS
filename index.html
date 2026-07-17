@@ -13,8 +13,7 @@
       <div class="logo">Pay<span>Test</span></div>
       <nav class="nav">
         <a href="#sobre">Sobre</a>
-        <a href="#testar">Testar API</a>
-        <a href="#resultado">Resultado</a>
+        <a href="#contato">Contato</a>
       </nav>
     </div>
   </header>
@@ -22,8 +21,8 @@
   <section class="hero">
     <div class="container hero-inner">
       <h1>Teste sua API de Pagamentos<br>de forma simples e rápida</h1>
-      <p>Uma landing page pensada para validar integrações de pagamento durante o desenvolvimento.</p>
-      <a href="#testar" class="btn btn-primary">Começar teste</a>
+      <p>Uma landing page simples para validar a integração da sua API de pagamentos.</p>
+      <a href="#contato" class="btn btn-primary">Falar com a gente</a>
     </div>
   </section>
 
@@ -31,40 +30,15 @@
     <div class="container">
       <h2>Sobre este site</h2>
       <p>
-        Esta página serve como um ambiente simples para testar chamadas à sua API de pagamentos.
-        Preencha o formulário abaixo, envie a requisição e acompanhe o resultado em tempo real.
+        Esta página é um ambiente de testes para a API de pagamentos.
       </p>
     </div>
   </section>
 
-  <section id="testar" class="section section-alt">
+  <section id="contato" class="section section-alt">
     <div class="container">
-      <h2>Testar API</h2>
-      <form id="payment-form" class="card">
-        <div class="form-group">
-          <label for="amount">Valor (R$)</label>
-          <input type="number" id="amount" name="amount" step="0.01" min="0" placeholder="100.00" required />
-        </div>
-
-        <div class="form-group">
-          <label for="description">Descrição</label>
-          <input type="text" id="description" name="description" placeholder="Pedido de teste" required />
-        </div>
-
-        <div class="form-group">
-          <label for="email">E-mail do pagador</label>
-          <input type="email" id="email" name="email" placeholder="cliente@email.com" required />
-        </div>
-
-        <button type="submit" class="btn btn-primary">Enviar teste</button>
-      </form>
-    </div>
-  </section>
-
-  <section id="resultado" class="section">
-    <div class="container">
-      <h2>Resultado</h2>
-      <pre id="result-box" class="result-box">Nenhum teste realizado ainda.</pre>
+      <h2>Contato</h2>
+      <p>Entre em contato para saber mais.</p>
     </div>
   </section>
 
@@ -74,6 +48,9 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="https://api.seudominio.com.br/snippet.js"
+          data-api-base="https://api.seudominio.com.br"
+          data-site-key="CHAVE_GERADA_NO_CADASTRO_DO_CLIENTE"
+          data-portal-url="https://painel.seudominio.com.br/portal/login"></script>
 </body>
 </html>
